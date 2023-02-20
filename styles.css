@@ -1,22 +1,51 @@
 
 /* Your CSS Code here. */
-.inner{
-	background-color:lightseagreen;
-	padding: 25px;
-	border: 15px solid blue;
-	margin-border: 20px;
-	width: 300px;
-}
-
 p{
-	border: 2px dashed black;
+	width:280px;
+	background:powderblue;
+	border:2px dotted black;
+	postion:absolute;
+	left:95px;
+	top:85px;
 }
-div {
+.inner{
+	width:300px;
+	background:powderblue;
 	border:2px solid black;
+	postion:absolute;
+	left:50px;
+	top:50px;
+}
+.padding{
+	margin:0px;
+	padding:0px;
+	width:320px;
+	height:120px;
+	background:powderblue;
+	border:2px solid black;
+	postion:absolute;
+	left:35px;
+	top:35px;
 }
 .border{
-	padding: 20px;
-	border-right:2px solid black;
-	margin-right:20px;
+	margin:0px;
+	padding:0px;
 	width:380px;
+	height:200px;
+	background:powderblue;
+	border:2px solid black;
+	postion:absolute;
+	left:20px;
+	top:20px;
+}
+.margin{
+	margin:0px;
+	padding:0px;
+	width:420px;
+	height:240px;
+	background:powderblue;
+	border:2px solid black;
+	postion:absolute;
+	left:0px;
+	top:0px;
 }
